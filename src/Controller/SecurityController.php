@@ -47,9 +47,9 @@ class SecurityController extends AbstractController
     {
 
 
-        $html = $twig->render('email/_report-table.html.twig', []);
-
-        $pdf = $pdf->getOutputFromHtml($html);
+//        $html = $twig->render('email/_report-table.html.twig', []);
+//
+//        $pdf = $pdf->getOutputFromHtml($html);
 
 //        $email = (new TemplatedEmail())
 //            ->from(new NamedAddress('mavischen916@gmail.com', 'The XY Studio'))

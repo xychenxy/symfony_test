@@ -49,7 +49,7 @@ class Mailer
         $pdf = $this->pdf->getOutputFromHtml($html);
 
         $email = (new TemplatedEmail())
-            ->from(new NamedAddress('mavischen916@gmail.com', 'Openg The Doors Foundation'))
+            ->from(new NamedAddress('admin@openingthedoors.com', 'Openg The Doors Foundation'))
             ->to(new NamedAddress('mavischen916@gmail.com', 'Mavis'))
             ->subject('Welcome to the OTDF')
             ->htmlTemplate('email/email.html.twig')
